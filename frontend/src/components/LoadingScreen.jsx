@@ -112,7 +112,7 @@ const LoadingScreen = ({ onComplete }) => {
               animate={{ rotate: [0, 360] }}
               transition={{ duration: 4, repeat: Infinity }}
             >   
-              <img src="/public/EdventurLOGO.png" 
+              <img src="/EdventurLOGO.png" 
               alt="logo" 
               className='h-16 md:h-28'/> 
             </motion.div>

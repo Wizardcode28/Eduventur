@@ -75,7 +75,7 @@ const HeroSection = () => {
           <Navbar />
 
           {(badge && !displayed)
-                ? <BadgeUnlock badgeImage={`/public/${badge}.jpg`} badgeTitle={badge} isVisible={true} />
+                ? <BadgeUnlock badgeImage={`/${badge}.jpg`} badgeTitle={badge} isVisible={true} />
                 : <div></div>}
 
 
@@ -129,7 +129,7 @@ const HeroSection = () => {
               className="mb-8 flex justify-center"
             >
               <div>
-              <img src="/public/EdventurLOGO.png" 
+              <img src="/EdventurLOGO.png" 
               alt="logo" 
               className='h-10 md:h-20'/>
             </div>
