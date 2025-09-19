@@ -49,7 +49,7 @@ const Profile = () => {
         {/* Profile Section */}
         <div className="flex flex-col md:flex-row items-center gap-6">
           <img
-            src="/public/character1.jpg"
+            src="/character1.jpg"
             alt="Profile"
             className="w-32 h-32 rounded-full border-4 border-cyan-400 shadow-[0_0_20px_#22d3ee]"
           />
@@ -81,7 +81,7 @@ const Profile = () => {
             {(user.badges || []).map((badge,index)=>(
               <div key={index}>
               <p className='text-white text-[0.6rem] sm:text-[0.8rem]'>{badge}</p>
-              <img className='h-12 w-12 sm:h-20 sm:w-20 border-2' src={`/public/${badge}.jpg`} alt="badge" />
+              <img className='h-12 w-12 sm:h-20 sm:w-20 border-2' src={`/${badge}.jpg`} alt="badge" />
             </div>
             ))}
           </div>

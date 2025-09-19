@@ -1,5 +1,3 @@
-"use client"
-
 import { useState, useEffect, useRef, use } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import LoadingScreen from "../components/LoadingScreen"
@@ -179,7 +177,7 @@ const [loading,setLoading]=useState(true)
     }
   }, [gameState.gameOver, gameState.showQuiz])
 
-  let music=new Audio('/public/Racing.mp3')
+  let music=new Audio('/Racing.mp3')
   music.loop=true;
   useEffect(()=>{
     music.play();

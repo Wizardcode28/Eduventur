@@ -294,7 +294,7 @@ const TrophyIcon = ({ className = "" }) => (
 )
 
 
-const puzzleImageData = '/public/character2.jpg'
+const puzzleImageData = '/character2.jpg'
 
 export default function SciencePage() {
 
@@ -351,7 +351,7 @@ export default function SciencePage() {
     setPuzzlePieces(pieces)
   }, [])
 
-  let music=new Audio('/public/Quiz.mp3');
+  let music=new Audio('/Quiz.mp3');
   music.loop=true;
   useEffect(()=>{
     music.play();

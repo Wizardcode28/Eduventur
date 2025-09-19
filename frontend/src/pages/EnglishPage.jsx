@@ -293,7 +293,7 @@ const TrophyIcon = ({ className = "" }) => (
   </svg>
 )
 
-const puzzleImageData = '/public/character3.jpg'
+const puzzleImageData = '/character3.jpg'
 
 export default function EnglishPage() {
 
@@ -367,7 +367,7 @@ export default function EnglishPage() {
     }
   },[gameState])
 
-  let music=new Audio('/public/Quiz.mp3');
+  let music=new Audio('/Quiz.mp3');
   music.loop=true;
   useEffect(()=>{
     music.play();

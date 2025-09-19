@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import GameCard from "../components/GameCard";
 import ParticleBackground from "../components/ParticleBackground";
-import MarioGame from '/public/MarioGame.jpeg'
-import RacingGame from '/public/RacingGame.jpeg'
+import MarioGame from '/MarioGame.jpeg'
+import RacingGame from '/RacingGame.jpeg'
 import {NavLink,useNavigate} from 'react-router-dom'
 import {toast} from 'react-hot-toast'
 import axios from 'axios'
@@ -68,7 +68,7 @@ const Games = () => {
     <div className="min-h-screen bg-black relative overflow-hidden">
 
       {(badge && !displayed)
-      ? <BadgeUnlock badgeImage={`/public/${badge}.jpg`} badgeTitle={badge} isVisible={true} />
+      ? <BadgeUnlock badgeImage={`/${badge}.jpg`} badgeTitle={badge} isVisible={true} />
       : <div></div>}
       <ParticleBackground />
       
