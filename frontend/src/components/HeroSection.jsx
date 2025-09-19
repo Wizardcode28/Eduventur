@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Play, BookOpen } from 'lucide-react';
 import Navbar from './Navbar';
-import heroBackground from '../assets/HeroBackground.jpeg'
+import heroBackground from '/HeroBackground.jpeg'
 import { useState, useEffect } from 'react';
 import LoadingScreen from './LoadingScreen';
 import {NavLink} from 'react-router-dom'

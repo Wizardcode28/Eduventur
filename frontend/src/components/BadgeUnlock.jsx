@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react"
 export default function BadgeUnlock({ badgeImage, badgeTitle, isVisible }) {
     const badgeRef=useRef(null)
 
-    let sound=new Audio('/public/badgeUnlocked.mp3')
+    let sound=new Audio('/badgeUnlocked.mp3')
     useEffect(()=>{
         sound.play()
     },[])
